@@ -1,0 +1,164 @@
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+  height: 50%;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: white;
+}
+
+
+.popUpHeader{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 0;
+  padding-left: 10px;
+  margin: 40px auto 0;
+}
+
+
+#close{
+  position: absolute;
+  right: -30px;
+  top: -15px;
+  background: #f68b6a;
+  font-size: 20px;
+  color:white;
+}
+
+#close:hover {
+  opacity: 1;
+  background-color: blue;
+}
+
+
+.popover_title .title {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 500;
+    margin: 10px 0;
+    padding-bottom: 5px;
+    overflow: hidden;
+    border-bottom: 2px solid #28a7459c;
+}
+
+
+.popup .left_side {
+    overflow: hidden;
+    margin: 0;
+    display: block;
+    float: left;
+}
+
+
+.popup .right_side {
+    overflow: hidden;
+    margin: 0;
+    display: block;
+    float:right;
+}
+
+
+.popup .left_inner_content, .popup .right_inner_content {
+    display: block;
+}
+
+
+.desc_title {
+    color: #35b8b8;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+
+
+.detailsBtn{
+    width: 75%;
+    text-align: center;
+    background-color: #f68b6a;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 40px auto 0 !important;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+.detailsBtn:hover{
+  background: blue;
+}
+
+
+@media (max-width: 450px) {
+
+.popup_inner {
+    position: absolute;
+    height: 70%;
+    left: 0;
+    right: 0%;
+    top: 30px;
+    bottom: 25%;
+    margin: auto;
+    background: white;
+    width: 75%;
+}
+
+
+.detailsBtn{
+    width: 75%;
+    text-align: center;
+    background-color: #f68b6a;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+
+}
+
+
+@media (max-width: 1025px) and (min-width: 700px){
+
+ .popup_inner{
+    height: 50%;
+ }
+
+}
+
+
+
+@media (max-width: 320px) {
+.popup_inner {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0%;
+    top: 200px;
+    bottom: 25%;
+    margin: auto;
+    background: white;
+    width: 75%;
+
+}
+}

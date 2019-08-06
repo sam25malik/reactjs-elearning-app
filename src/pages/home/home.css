@@ -1,0 +1,184 @@
+.sidebarHome{
+	border:2px black solid;
+	height: 100%;
+	margin-left: 25px;
+	margin-top: 10px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.sidebarHeader{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 0;
+	padding-left: 10px;
+    margin: 40px auto 0;
+}
+
+.searchBtn{
+	display: block;
+    width: 75%;
+    text-align: center;
+    background-color: #f68b6a;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 40px auto 0;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+.searchBtn:hover{
+	background: blue;
+}
+
+.searchFilter{
+	background: black;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px !important;
+}
+
+.sidebarTitle{
+	color:white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.mainHeader{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 15px 0;
+	padding-left: 10px;
+    margin: 10px auto 0;
+}
+
+.mainSection{
+	margin-right: 0px !important;
+}
+
+.mainContent{
+	margin-left: 40px !important;
+}
+
+.box{
+	border: 1px black solid;
+	width: 320px !important;
+	height: 250px;
+	margin: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.box:hover{
+	opacity: 0.7;
+}
+.box:hover .overlay{
+	  opacity: 1;
+}
+
+
+.listHeader{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+    background-color: rgba(61,76,93,.5);
+    color: #fff;
+    opacity: 0.8;
+}
+
+.box-ul li{
+	list-style-type: none;
+	margin-left: -15px !important;
+}
+
+.date{
+	margin-left: 10px;
+}
+
+.startDate{
+	border: 2px black solid;
+}
+
+.endDate{
+	border: 2px black solid;
+	margin-left: 5px;
+}
+
+.clear:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+
+@media (max-width: 450px) {
+
+ .sidebarHome{
+	border:2px black solid;
+	height: 100%;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 30px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+ }
+
+.mainContent{
+	margin-left: 20px !important;
+}
+
+
+}
+
+
+@media (max-width: 320px) {
+
+.mainContent{
+	margin-left: 0px !important;
+}
+
+.box{
+	border: 1px black solid;
+	width: 320px !important;
+	height: 250px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
+
+@media (max-width: 1025px) and (min-width: 700px){
+.sidebarHome{
+	border:2px black solid;
+	height: 100%;
+	margin-left: 35px;
+	margin-right: 25px;
+	margin-top: 30px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+ }
+ .endDate{
+ 	margin-top: 10px;
+ 	margin-left: 0px;
+ }
+
+}
+
